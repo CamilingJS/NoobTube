@@ -25,7 +25,7 @@ function updatePlayIcon() {
 
 //Update progress & timestamp
 function updateProgress() {
-    return true; 
+    progress.value = (video.currentTime / video.duration) * 100; 
 }
 
 //Set video time to progress
